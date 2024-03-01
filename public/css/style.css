@@ -1,0 +1,133 @@
+  body, html {
+    height: 100%; /* Make sure the html and body elements take up the full height */
+    margin: 0; /* Reset default margin */
+  }
+
+  body {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+  }
+
+  .content {
+    flex: 1; /* Allows the content area to expand and fill available space, pushing the footer down */
+    background-color: #f8f9fa; /* Optional: just for better visibility */
+  }
+
+table tr td{
+  vertical-align: middle;
+}
+
+td button{
+  margin: 5px;
+}
+
+td button i{
+  font-size: 20px;
+}
+
+
+.modal-header{
+  background: #0d6efd;
+  color: #fff;
+}
+
+.modal-body form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.modal-body form .imgholder{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.imgholder .upload{
+  position: absolute;
+  bottom: 0;
+  left: 10;
+  width: 100%;
+  height: 100px;
+  background: rgba(0,0,0,0.3);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.upload i{
+  color: #fff;
+  font-size: 35px;
+}
+
+.imgholder:hover .upload{
+  display: flex;
+}
+
+.imgholder .upload input{
+  display: none;
+}
+
+.modal-body form .inputField{
+  flex-basis: 68%;
+  border-left: 5px groove blue;
+  padding-left: 20px;
+}
+
+form .inputField > div{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+form .inputField > div label{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#userForm form .inputField > div label::after{
+  content: "*";
+  color: red;
+}
+
+form .inputField > div input{
+  width: 75%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 2px solid blue;
+}
+
+.modal-footer .submit{
+  font-size: 18px;
+}
+
+
+#readData form .inputField > div input{
+  color: #000;
+  font-size: 18px;
+}
+
+.bg-very-dark {
+  background-color: #121212 !important; /* Or any dark color you prefer */
+}
+.carousel-item {
+  height: 100px; /* Set a fixed height for the carousel items */
+
+}
+
+.carousel-item img {
+  max-height: 100px; /* Ensure the image doesn't exceed the carousel item's height */
+  width: 100px; /* Maintain the image's aspect ratio */
+  margin: auto; /* Center the image within the item */
+  object-fit: cover; /* Cover the area without distorting the image */
+}
+
+  

@@ -1,0 +1,14 @@
+{
+    "user_not_found": "User not found.",
+    "username_password_required": "Username and password are required.",
+    "user_exists": "There is already a user with the same name.",
+    "error_signup": "An error occurred during signup.",
+    "invalid_credentials": "Invalid credentials.",
+    "error_login": "An error occurred during login.",
+    "access_token_required": "Access token is required.",
+    "invalid_token": "Invalid token.",
+    "user_deleted_successfully": "User deleted successfully.",
+    "error_deleting_user": "Error deleting user.",
+    "error_updating_user": "Error updating user."
+  }
+  
